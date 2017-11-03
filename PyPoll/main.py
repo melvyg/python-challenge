@@ -2,10 +2,10 @@ import os
 
 path = os.path.dirname(os.path.realpath(__file__))
 
-election_data2 = "election_data_2.csv"
+election_data = "election_data_2.csv"
 
 import csv
-with open(election_data2, newline="") as csvfile:
+with open(election_data, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     
     poll_dict = {}
